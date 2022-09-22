@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name = Open In WezTerm
+Name[nl] = Openen in WezTerm
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=all/all;
@@ -8,6 +9,7 @@ Actions = openwezterm
 
 [Desktop Action openwezterm]
 Name = Open In WezTerm
+Name[nl] = Openen in WezTerm
 Exec=/usr/bin/wezterm start --cwd %F
 Icon=org.wezfurlong.wezterm
  
